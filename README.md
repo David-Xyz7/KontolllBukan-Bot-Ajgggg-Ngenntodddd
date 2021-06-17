@@ -70,7 +70,7 @@ Ket: Script ini gratis ye Jangan dijual_-
 
 ## SOSIAL MEDIA ADMIN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
 
-* [`Youtube Admin`](https://youtube.com/c/DREAM BOT?)
+* [`Youtube Admin`](https://youtube.com/c/DREAM20%BOT?)
 * [`Instagram Admin`](https://www.instagram.com/kentang7_gorengv/)
 * [`WhatsApp Admin `](https://wa.me/+6287880120452)
 * [`Group WhatsApp `](https://xnxx.com)
