@@ -26,7 +26,7 @@
  
 </details>
 
-### 𝗧𝗵𝗮𝗻𝗸𝘀 𝗙𝗼𝗿 MR'AGZ69
+### 𝗧𝗵𝗮𝗻𝗸𝘀 𝗙𝗼𝗿 DREAM TEAM
 
 ### WARNING
 MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA.... DILARANG UBAH INFO!!!
