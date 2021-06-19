@@ -3287,16 +3287,3 @@ case 'jadibot':
 	})
 }
 starts()
-
-
-/* 
-*
-*
-*
-*          THANKS TO :
-*               - MHANKBARBAR$
-*               - drmシ
-*
-*
-* 
-*/
