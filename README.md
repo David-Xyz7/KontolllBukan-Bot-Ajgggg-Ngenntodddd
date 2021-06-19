@@ -56,7 +56,9 @@ Siapin alat dan bahannya.
 > pkg install bash -y
 > pkg install mc -y
 > git clone https://github.com/dreamteam14/Dream-Bot
+> hapus file dream.json nya
 > cd Dream-Bot
+> bash install.sh
 > node index.js
 > Scan Done...
 ```
@@ -77,4 +79,11 @@ Ket: Script ini gratis ye Jangan dijual_-
 ## THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="60px">
 
 * [`ALLAH SWT`]
+* [`MhankBarBar`]
+* [`Dream Team`]
+* [`David`]
+* [`DAPPA UHUY`]
+* [`DIKA ARDIANTA`]
+* [`AKIRA`]
+* [`DAN ALLL CREATOR BOT WA`]
 <img src="https://github.com/sassman/t-rec-rs/blob/main/docs/demo.gif" alt="Terminal Linux" width="1000" />
