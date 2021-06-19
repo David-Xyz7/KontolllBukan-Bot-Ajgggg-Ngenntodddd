@@ -55,9 +55,9 @@ Siapin alat dan bahannya.
 > pkg install git -y
 > pkg install bash -y
 > pkg install mc -y
-> git clone https://github.com/dreamteam14/Dream-Bot
+> git clone https://github.com/dreamteam14/DreamV2
 > hapus file dream.json nya
-> cd Dream-Bot
+> cd DreamV2
 > bash install.sh
 > node index.js
 > Scan Done...
