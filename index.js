@@ -3267,7 +3267,17 @@ case 'jadibot':
    const bufferqr = new Buffer.from(qrdata.replace('data:image/png;base64,', ''), 'base64')
    drm.sendMessage(from, bufferqr, image, {caption: `*Scan QR ini untuk Menjadikan ada BOT!!*\n\nSession id: ${sesid}\nNotifikasi:\nQR ini hanya berlaku selama 20 Detik!!\n\n_NOTE : INI HANYA NUMPANG!_`})
 				break
-
+case 'jadibot2':
+const scan = new Buffer.from(await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png')
+      setTimeout(() => {
+        drm.deleteMessage(from, scan.key)
+      }, 30000)
+    }
+    conn.once('connection-validated', user => {
+      reply = 'Berhasil tersambung dengan WhatsAppmu.\n*NOTE : Ini cuma numpang!*\n' + JSON.stringify(user, null, 2), mek)
+    })
+drm.sendMessage(from, scan, image, { quoted : freply, caption: 'Scan Om'})
+break
 				default:
 				       if (budy.includes(`@6285865829368`)) {
                   reply(`*Jangan Tag David, Dia Lagi Comli*`)
