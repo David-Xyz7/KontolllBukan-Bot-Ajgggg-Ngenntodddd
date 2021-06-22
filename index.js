@@ -120,9 +120,9 @@ const vcard = 'BEGIN:VCARD\n'
 //*********** 𝗔𝗣𝗜𝗞𝗘𝗬 ***********//
 const XteamKey = 'c81b3345e477a0c7'        //XTEAM
 const ZeksApi = 'apivinz'                  //ZEKS
-const LolHuman = 'OpenVcs500k'           //LOLHUMAN
-const LolKey = 'OpenVcs500k'                 //LOLHUMAN
-const leysapi = 'ReyhanApi'
+const LolHuman = 'Beli Sendiri'           //LOLHUMAN
+const LolKey = 'Beli Sendiri'                 //LOLHUMAN
+const leysapi = 'Beli Sendiri '
 
 //********** WAKTU **********/
 const time = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
