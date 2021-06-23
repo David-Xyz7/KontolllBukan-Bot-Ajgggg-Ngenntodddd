@@ -2355,11 +2355,10 @@ break
                     }
                     break
                     
-		                    case 'stiker':
+		                                      case 'stiker':
                     case 's':
                     case 'sticker':
                     if ((isMedia && !mek.message.videoMessage || isQuotedImage)) {
-                        if (args.length == 0) return reply(`Example: ${prefix + command} drm|Rapayee`)
                         const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : lol
                         filePath = await drm.downloadAndSaveMediaMessage(encmedia, filename = getRandom());
                         file_name = getRandom(".webp")
@@ -2369,8 +2368,8 @@ break
                             method: 'POST',
                             formData: {
                                 "img": fs.createReadStream(filePath),
-                                "package": 'Dream Team',
-                                "author": '@David'
+                                "package": "Dream Team",
+                                "author": "@David"
                             },
                             encoding: "binary"
                         }, function(error, response, body) {
@@ -2381,9 +2380,6 @@ break
                                 fs.unlinkSync(file_name)
                             })
                         });
-                    } else {
-                        reply(`Kirim gambar dengan caption ${prefix + command} atau tag gambar yang sudah dikirim`)
-                    }
  break
 				case 'quotes':
       
